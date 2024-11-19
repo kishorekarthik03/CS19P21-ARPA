@@ -1,0 +1,5 @@
+$a = 10
+$b = 20
+$c = $a+$b
+$out = "The result is :" + $c
+New-Item -Path . -Name "Result.txt" -ItemType "file" -Value $out
